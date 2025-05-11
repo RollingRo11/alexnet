@@ -14,6 +14,6 @@ The NumPy implementation includes three key components:
 - **max_pooling**: A max pooling layer (similar to torch.nn.MaxPool2d)
 - **ReLU**: A ReLU activation function (like torch.nn.ReLU)
 
-You can view the implementation of each one in `layers.py` ([here](https://github.com/RollingRo11/dropout/blob/main/layers.py))
+You can view the implementation of each one in `layers.py` ([here](https://github.com/RollingRo11/alexnet/blob/main/layers.py))
 
 Additionally, I've implemented `torch.nn.Dropout` in the multilayer perceptron (as also done by the authors of the paper) in order to reduce overfitting and boost weight learnings- (I've already implemented Dropout on its own, you can check it out [here!](https://github.com/RollingRo11/dropout))
